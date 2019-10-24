@@ -73,18 +73,20 @@ h1 {
 .features-title-text {
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .line-break {
     width: 400px;
     margin-bottom: 50px;
+    border-top: 3px solid white;
 }
 
 .features {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 .features-description {
@@ -95,7 +97,7 @@ h1 {
 }
 
 .subtitles {
-    color: green;
+    color: #00B172;
     font-size: 35px;
 }
 
@@ -104,7 +106,7 @@ h1 {
 
 .green-background {
     height: 800px;
-    background-color: green;
+    background-color: #00B172;
     margin: 30px 30px;
     display: flex;
     justify-content: space-evenly;
@@ -135,7 +137,8 @@ h2 {
     font-size: 30px;
 }
 
-hr {
-    height: 2px;
+.line-break-green {
+    border-top: 3px solid #00B172;
+    width: 20%;
 }
 
